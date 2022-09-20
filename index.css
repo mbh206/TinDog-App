@@ -1,0 +1,107 @@
+/* Universal elements */
+body {
+    width:100%;
+    max-width:550px;
+    height:973px;
+    margin: 0 auto;
+    padding:0;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    border:1px solid #000;
+}
+
+/* Header Section */
+#header-container {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.header-icons {
+    padding:15px;
+}
+
+.header-icons img {
+    width: auto;
+    height: 40px;
+}
+
+/* Main Section */
+#main-container {
+    width:100%;
+    margin: 0;
+    position: relative;
+}
+
+.no-more-dogs {
+    margin: 50px auto;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.img-icons img {
+    width: 250px;
+    transform: rotateZ(-30deg);
+    position: absolute;
+    top:60px;
+    left:20px;
+}
+#like-icon {
+    display: none;
+}
+
+#nope-icon {
+    display: none;
+}
+
+#avatar {
+    width: 98%;
+    height:auto;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+#title {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: -25% 5%;
+    position: absolute
+}
+
+#desc {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 200;
+    line-height: 2rem;
+    margin: -18% 5%;
+    position: absolute;
+}
+
+/* Button Section */
+#button-container {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding:5px;
+}
+
+.btn {
+    margin: 15px 15px;
+    padding: 25px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px 1px rgb(216, 216, 216);
+}
+
+#btn-cross:hover,
+#btn-cross:active,
+#btn-cross:focus {
+    background-color: #FFE7EF;
+}
+
+#btn-heart:hover,
+#btn-heart:active,
+#btn-heart:focus {
+    background-color: #DBFFF4;
+}
